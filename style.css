@@ -77,24 +77,28 @@ a{
     display: inline-block;
     padding: 5px;
     border: 2px solid #000000;
+    border-radius: 6.5%;
 }
 
 .alumni-grid{
     text-align: center;
 }
 
+#events-list {
+    display: flex; /* Adjust as needed */
+}
 .event-card {
     text-align: center;
-    width: 200px;
+    width: 150px;
+    height: 200px;
     margin: 20px;
-    display: inline-block;
+    border : 2px solid black;
+    border-radius: 6.5%;
+    /* display: inline-block; */
+    flex: 1;
     padding: 5px;
 }
 
-#events-list {
-    /* display: inline-block; */
-    text-align: center;
-}
 
 #alumni-photo{
     border-radius: 50%;
